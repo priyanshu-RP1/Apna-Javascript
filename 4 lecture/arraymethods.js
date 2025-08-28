@@ -22,3 +22,31 @@ let a = [1, 2];
 let b = [3, 4];
 let c = a.concat(b);
 console.log(c); // [1, 2, 3, 4]
+
+//slice , retuns a particular portion from the arry 
+let arrr = [10, 20, 30, 40];
+console.log(arrr.slice(1, 3)); // [20, 30]
+
+
+console.log(arr.toString())// make the array as nornmal string 
+
+//splice  changes orignal array (add , remove , replace )
+//example = array.splice(startIndex, deleteCount, item1, item2, ...)
+arrr.splice(2,2,38,48)
+console.log(arrr);
+
+
+//index of and lastindex of 
+// Finds index of element.
+let arr1 = ["a", "b", "c", "b"];
+console.log(arr1.indexOf("b"));      // 1
+console.log(arr1.lastIndexOf("b"));  // 3
+
+
+//includes 
+//- Checks if value exists → returns `true/false
+let includes = [1, 2, 3];
+console.log(includes.includes(2)); // true
+
+//-- question for this are from 3rd in 4 
+

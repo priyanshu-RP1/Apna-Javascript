@@ -11,3 +11,5 @@ companies.push("Amazon")
 
 console.log(companies)
 
+//all done
+//chapter 4 compleate 
